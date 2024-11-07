@@ -1,0 +1,50 @@
+# Ignore configuration files
+demo/config.php
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore environment variables
+.env
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore vendor directory for PHP dependencies
+vendor/
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Ignore backup files
+*.bak
+*.old
+*.orig
+*.save
