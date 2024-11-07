@@ -10,7 +10,7 @@
 
 ## Introduction
 
-This is PHP for beginners from laracast and just for my own education purpocess
+This is PHP for beginners from laracast and just for my own education purposes
 
 ## Installation
 
