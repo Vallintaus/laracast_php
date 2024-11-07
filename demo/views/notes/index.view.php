@@ -1,5 +1,3 @@
-<?php use Core\Database; ?>
-
 <?php require base_path('views/partials/header.php'); ?>
 
 <?php require base_path('views/partials/nav.php'); ?>
@@ -7,8 +5,10 @@
 <?php require base_path('views/partials/banner.php'); ?>
 
 <?php
-$config = require base_path('config.php');
-$db = new Database($config['database']);
+use Core\App;
+use Core\Database;
+
+$db = App::container()->resolve(Database::class);
 
 
 $notes = $db->query('SELECT * FROM notes where user_id = 3')->fetchAll();
