@@ -1,6 +1,7 @@
 # Ignore configuration files
 demo/config.php
 
+
 # Ignore node_modules directory
 node_modules/
 
